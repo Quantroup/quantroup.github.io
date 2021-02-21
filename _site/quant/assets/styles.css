@@ -1,3 +1,17 @@
-.current { color: green; }
+.current_page { color: #fa9; }
+
+a { color: #fff; }
+
+nav { text-align: center; }
+
+a:hover { color: #ae3; }
+
+.nav-button { background-color: #222; }
+
+.nav-button:hover { background-color: #000; }
+
+body { margin: auto; margin: 1px 25px 1px; text-align: center; border: 3px double #aef; border-radius: 2px; background-color: rgba(10, 10, 10, 0.75); }
+
+html { background-image: url(/assets/images/126.png); font-family: "Times New Roman"; color: #fff; }
 
 /*# sourceMappingURL=styles.css.map */
