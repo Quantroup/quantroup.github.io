@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "index.css",
+	"sources": [
+		"index.scss",
+		"_sass/index.scss"
+	],
+	"sourcesContent": [
+		"@import \"index\";\n",
+		".welcome-text {\n  \n  font-size: 72pt;\n  position: relative;\n  top: 100px; \n  letter-spacing: 0px;\n  mix-blend-mode: exclusion;\n  background: linear-gradient(to bottom right, lightgreen, #eee);\n  -webkit-background-clip: text;\n  -webkit-text-fill-color: transparent;\n  z-index: 10;\n}\n\n.circuit{\n position: relative;\n bottom: 170px;\n width: 50%;\n z-index: 1;\n}\n"
+	],
+	"names": [],
+	"mappings": "ACAA,AAAA,aAAa,CAAC,EAEZ,SAAS,EAAE,IAAI,EACf,QAAQ,EAAE,QAAQ,EAClB,GAAG,EAAE,KAAK,EACV,cAAc,EAAE,GAAG,EACnB,cAAc,EAAE,SAAS,EACzB,UAAU,EAAE,kDAAkD,EAC9D,uBAAuB,EAAE,IAAI,EAC7B,uBAAuB,EAAE,WAAW,EACpC,OAAO,EAAE,EAAE,GACZ;;AAED,AAAA,QAAQ,CAAA,EACP,QAAQ,EAAE,QAAQ,EAClB,MAAM,EAAE,KAAK,EACb,KAAK,EAAE,GAAG,EACV,OAAO,EAAE,CAAC,GACV"
+}
