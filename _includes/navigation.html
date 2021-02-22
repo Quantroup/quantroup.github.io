@@ -1,6 +1,67 @@
 <nav>
+  <button id= "openbar" class= "nav-button" onclick="sidebar_open()"> &#9776; </button>
+  <button id= "closebar" class= "nav-button" onclick="sidebar_close()"> Close &times</button>
+
   {% for item in site.data.navigation %}
-  <a href="{{ item.link }}"> <button {% if page.url == item.link %}class="current_page"{% endif %} class="nav-button" > {{ item.name }} </button> </a>
+  <a href="{{ item.link }}"> <button {% if page.url == item.link %}class="current_page"{% endif %} class="nav-button" align="middle" > {{ item.name }} </button> </a>
   {% endfor %}
-  <p class="date">  <p>
 </nav>
+
+  <div id= "nav-side" class= "nav-side">
+    <p> {{"testing"}} </p> 
+    <p> {{"testing"}} </p> 
+    <p> {{"testing"}} </p> 
+    <p> {{"testing"}} </p> 
+    <p> {{"testing"}} </p> 
+    <p> {{"testing"}} </p> 
+    <p> {{"testing"}} </p> 
+    <p> {{"testing"}} </p> 
+    <p> {{"testing"}} </p> 
+    <p> {{"testingREAAAAAAAAALLLLLLY WIIIIIIIIDDEEEEEEE"}} </p> 
+    <p> {{"testing"}} </p> 
+    <p> {{"testing"}} </p> 
+    <p> {{"testing"}} </p> 
+    <p> {{"testing"}} </p> 
+    <p> {{"testing"}} </p> 
+    <p> {{"testing"}} </p> 
+    <p> {{"testing"}} </p> 
+    <p> {{"testing"}} </p> 
+    <p> {{"testing"}} </p> 
+    <p> {{"testing"}} </p> 
+    <p> {{"testing"}} </p> 
+    <p> {{"testing"}} </p> 
+    <p> {{"testing"}} </p> 
+    <p> {{"testing"}} </p> 
+    <p> {{"testing"}} </p> 
+    <p> {{"testing"}} </p> 
+    <p> {{"testing"}} </p> 
+    <p> {{"testin!"}} </p> 
+  </div>
+
+<script>
+function sidebar_open() {
+  document.getElementById("content").style.marginLeft = "15%";
+  document.getElementById("nav-side").style.width = "15%";
+  document.getElementById("nav-side").style.display = "block";
+  document.getElementById("openbar").style.display = 'none';
+  document.getElementById("closebar").style.disply = "initial";
+  document.getElementById("closebar").style.visibility = "visible";
+}
+function sidebar_close() {
+  document.getElementById("content").style.marginLeft = "0%";
+  document.getElementById("nav-side").style.display = "none";
+  document.getElementById("openbar").style.display = "inline-block";
+  document.getElementById("closebar").style.display = "initial";
+  document.getElementById("closebar").style.visibility = "hidden";
+}
+</script>
+
+<!-- Import fonts -->
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap'); <!-- Special elite -->
+</style>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&display=swap');
+</style> 
+<!-- End import -->
