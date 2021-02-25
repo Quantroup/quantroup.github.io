@@ -1,8 +1,3 @@
-.current_page {
-  background-color: #222;
-  color: #fa9;
-}
-
 .current_page:hover{
   background-color: #000;
   color: #ae3;
@@ -33,6 +28,13 @@ nav {
   background-color: #222;
   color: #fff;
   //background-image: url(/assets/images/.png);
+  padding: 5px;
+  //border:
+}
+
+.current_page {
+  background-color: #222;
+  color: #fa9;
 }
 
 #nav-side {display: none;}

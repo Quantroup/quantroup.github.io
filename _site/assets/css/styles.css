@@ -1,12 +1,12 @@
-.current_page { background-color: #222; color: #fa9; }
-
 .current_page:hover { background-color: #000; color: #ae3; }
 
 nav { margin-left: -8px; margin-right: -8px; text-align: center; mix-blend-mode: normal; background: #4b4b4b; background-image: url(/assets/images/castle_wall.gif); background-repeat: repeat-x; margin: 0px 0px 0px; padding: 0px 0px 8px 0px; position: sticky; top: 0; z-index: 999998; }
 
 .nav-button { display: inline-block; margin-top: 5px; }
 
-.nav-button { background-color: #222; color: #fff; }
+.nav-button { background-color: #222; color: #fff; padding: 5px; }
+
+.current_page { background-color: #222; color: #fa9; }
 
 #nav-side { display: none; }
 

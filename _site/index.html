@@ -7,11 +7,11 @@
   </head>
   <body>
     <nav>
-  <button id= "openbar" class= "nav-button" onclick="sidebar_open()"> &#9776; </button>
-  <button id= "closebar" class= "nav-button" onclick="sidebar_close()"> Close &times</button>
+		<button id= "openbar" class= "nav-button" onclick="sidebar_open()"> &#9776; </button>
+  <button id= "closebar" class= "nav-button" onclick="sidebar_close()"> Close &times </button>
 
   
-  <a href="/"> <button class="current_page" class="nav-button" align="middle" > Home </button> </a>
+  <a href="/"> <button class="nav-button current_page"  class="nav-button" align="middle" > Home </button> </a>
   
   <a href="/about.html"> <button  class="nav-button" align="middle" > About </button> </a>
   
@@ -24,34 +24,7 @@
 </nav>
 
   <div id= "nav-side" class= "nav-side">
-    <p> testing </p> 
-    <p> testing </p> 
-    <p> testing </p> 
-    <p> testing </p> 
-    <p> testing </p> 
-    <p> testing </p> 
-    <p> testing </p> 
-    <p> testing </p> 
-    <p> testing </p> 
-    <p> testingREAAAAAAAAALLLLLLY WIIIIIIIIDDEEEEEEE </p> 
-    <p> testing </p> 
-    <p> testing </p> 
-    <p> testing </p> 
-    <p> testing </p> 
-    <p> testing </p> 
-    <p> testing </p> 
-    <p> testing </p> 
-    <p> testing </p> 
-    <p> testing </p> 
-    <p> testing </p> 
-    <p> testing </p> 
-    <p> testing </p> 
-    <p> testing </p> 
-    <p> testing </p> 
-    <p> testing </p> 
-    <p> testing </p> 
-    <p> testing </p> 
-    <p> testin! </p> 
+
   </div>
 
 <script>
@@ -79,7 +52,15 @@ function sidebar_close() {
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&display=swap');
-</style> 
+</style>
+
+<style>
+@font-face {
+  font-family: 'noita-glyph';
+  src: url('assets/fonts/Noita-Glyph.ttf') format('truetype');
+}
+
+</style>
 <!-- End import -->
 
 	<div id= "content" class="content">  
@@ -91,12 +72,22 @@ function sidebar_close() {
 	<title>Home</title>
   </head>
   <body>
-		  <h1 class= "welcome-text" "anim-text">Quantroup's blog</h1>
-		  <img class="sky" src="/assets/images/sky.png"  >
-		  <h2 class= "welcome-subtext" "anim-text">Where we do things horribly!</h2>
+		  <div class= "sky">
+			<h1 class= "welcome-text" "anim-text">Quantroup's blog</h1>
+		<h2 id= "secret" class= "welcome-subtext" "anim-text"></h2>
+		  </div>
   </body>
 </html>
 
+<script>
+        function get_text() {
+        var texts = [ "Secrets are nice.", "How to blog?", "<3", "We totally didn't steal this idea from minecraft", "404 secret not found", "Can I has cheezburger?", "Powered by miracles!", "Beware: Bugs", "Not the bees!", "Are you still there?", "Best run on Netscape 4.0" ];
+        return texts[Math.floor(Math.random() * texts.length)];                             
+        }
+</script>
+<script>
+		document.getElementById("secret").innerHTML = get_text();  
+</script>
 
 	</div>
   </body>

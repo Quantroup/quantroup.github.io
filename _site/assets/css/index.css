@@ -1,8 +1,8 @@
-.welcome-text { font-family: "special elite"; font-size: 72pt; position: relative; top: 130px; letter-spacing: 0px; mix-blend-mode: exclusion; background: linear-gradient(-45deg, green, lightgreen, #eee); -webkit-background-clip: text; -webkit-text-fill-color: transparent; z-index: 10; }
+.welcome-text { font-family: "special elite"; font-size: 7vw; position: relative; top: 20px; mix-blend-mode: exclusion; right: 12%; white-space: nowrap; color: coral; }
 
-.sky { position: relative; bottom: 170px; width: 50%; z-index: 1; }
+.sky { position: relative; margin: auto; overflow: visible; background-image: url(/assets/images/sky.png); background-size: cover; width: 51%; z-index: 1; }
 
-.welcome-subtext { font-family: "ibm plex mono"; position: relative; bottom: 320px; font-size: 26pt; mix-blend-mode: exclusion; background: linear-gradient(-45deg, red, lightred, #eee); -webkit-background-clip: text; -webkit-text-fill-color: solid; z-index: 9999; }
+.welcome-subtext { font-family: noita-glyph; position: relative; bottom: 20px; font-size: 2.5vw; mix-blend-mode: hard-light; font-weight: lighter; color: crimson; }
 
 .anim-text { animation: grad-text 10s ease infinite; -webkit-animation: grad-text 10s ease infinite; }
 
