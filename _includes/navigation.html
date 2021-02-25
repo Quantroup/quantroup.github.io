@@ -1,7 +1,7 @@
 <nav>
-		<button id= "openbar" class= "nav-button" onclick="sidebar_open()"> {{"&#9776;"}} </button>
+		<!--	<button id= "openbar" class= "nav-button" onclick="sidebar_open()"> {{"&#9776;"}} </button>
   <button id= "closebar" class= "nav-button" onclick="sidebar_close()"> {{"Close &times"}} </button>
-
+		-->
   {% for item in site.data.navigation %}
   <a href="{{ item.link }}"> <button {% if page.url == item.link %}class="nav-button current_page" {% endif %} class="nav-button" align="middle" > {{ item.name }} </button> </a>
   {% endfor %}

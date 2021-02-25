@@ -4,7 +4,7 @@ nav { margin-left: -8px; margin-right: -8px; text-align: center; mix-blend-mode:
 
 .nav-button { display: inline-block; margin-top: 5px; }
 
-.nav-button { background-color: #222; color: #fff; padding: 5px; }
+.nav-button { background-color: #222; color: #fff; padding: 5px; border: none; }
 
 .current_page { background-color: #222; color: #fa9; }
 
@@ -16,7 +16,7 @@ nav { margin-left: -8px; margin-right: -8px; text-align: center; mix-blend-mode:
 
 #closebar { visibility: hidden; left: 10px; position: absolute; }
 
-.nav-side::-webkit-scrollbar-track { border: 1px solid #000; padding: 2px 0; background-color: #404040; }
+.nav-side::-webkit-scrollbar-track { border: 2px solid #000; padding: 3px 0; background-color: #404040; }
 
 .nav-side::-webkit-scrollbar { width: 10px; }
 

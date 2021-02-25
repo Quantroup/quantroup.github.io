@@ -29,7 +29,7 @@ nav {
   color: #fff;
   //background-image: url(/assets/images/.png);
   padding: 5px;
-  //border:
+  border: none; //0px solid crimson;
 }
 
 .current_page {
@@ -61,8 +61,8 @@ nav {
 #closebar{ visibility: hidden; left:10px; position: absolute; }
 
 .nav-side::-webkit-scrollbar-track {
-  border: 1px solid #000;
-  padding: 2px 0;
+  border: 2px solid #000;
+  padding: 3px 0;
   background-color: #404040;
 }
 
