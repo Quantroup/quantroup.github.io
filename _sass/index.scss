@@ -3,16 +3,10 @@
   font-size: 7vw;
   position: relative;
   top: 20px; 
-  //letter-spacing: 0px;
   mix-blend-mode: exclusion;
-  //background: linear-gradient(-45deg, green, lightgreen, #eee);
-  //-webkit-background-clip: text;
-  right: 12%;
-  //-webkit-text-fill-color: transparent;
+  right: 6.5vw;
   //z-index: 100;
   white-space: nowrap;
-  //float: inline-start;
-  //right: 15%;
   color: coral;
 }
 
@@ -23,7 +17,7 @@
  overflow: visible;
  background-image: url(/assets/images/sky.png);
  background-size: cover;
- width: 51%;
+ width: 55%;
  z-index: 1;
 }
 

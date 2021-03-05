@@ -6,48 +6,23 @@
 	<link rel="stylesheet" href="/assets/css/styles.css">
   </head>
   <body>
-    <nav>
-		<!--	<button id= "openbar" class= "nav-button" onclick="sidebar_open()"> &#9776; </button>
-  <button id= "closebar" class= "nav-button" onclick="sidebar_close()"> Close &times </button>
-		-->
-  
-  <a href="/"> <button  class="nav-button" align="middle" > Home </button> </a>
-  
-  <a href="/about.html"> <button class="nav-button current_page"  class="nav-button" align="middle" > About </button> </a>
-  
-  <a href="/blog.html"> <button  class="nav-button" align="middle" > Blog </button> </a>
-  
-  <a href="/staff.html"> <button  class="nav-button" align="middle" > Staff </button> </a>
-  
-  <a href="/feed.xml"> <button  class="nav-button" align="middle" > RSS Feed </button> </a>
-  
+    <nav class= "navbox">
+
+    <a class="nav-par" href="/"> <button  class="nav-button" align="middle" > Home </button> </a>
+
+    <a class="nav-par" href="/about.html"> <button class="nav-button current_page"  class="nav-button" align="middle" > About </button> </a>
+
+    <a class="nav-par" href="/blog.html"> <button  class="nav-button" align="middle" > Blog </button> </a>
+
+    <a class="nav-par" href="/staff.html"> <button  class="nav-button" align="middle" > Staff </button> </a>
+
+    <a class="nav-par" href="/feed.xml"> <button  class="nav-button" align="middle" > RSS Feed </button> </a>
+
 </nav>
-
-  <div id= "nav-side" class= "nav-side">
-
-  </div>
-
-<script>
-function sidebar_open() {
-  document.getElementById("content").style.marginLeft = "15%";
-  document.getElementById("nav-side").style.width = "15%";
-  document.getElementById("nav-side").style.display = "block";
-  document.getElementById("openbar").style.display = 'none';
-  document.getElementById("closebar").style.disply = "initial";
-  document.getElementById("closebar").style.visibility = "visible";
-}
-function sidebar_close() {
-  document.getElementById("content").style.marginLeft = "0%";
-  document.getElementById("nav-side").style.display = "none";
-  document.getElementById("openbar").style.display = "inline-block";
-  document.getElementById("closebar").style.display = "initial";
-  document.getElementById("closebar").style.visibility = "hidden";
-}
-</script>
 
 <!-- Import fonts -->
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap'); <!-- Special elite -->
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
 </style>
 
 <style>

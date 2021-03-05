@@ -1,6 +1,6 @@
-.welcome-text { font-family: "special elite"; font-size: 7vw; position: relative; top: 20px; mix-blend-mode: exclusion; right: 12%; white-space: nowrap; color: coral; }
+.welcome-text { font-family: "special elite"; font-size: 7vw; position: relative; top: 20px; mix-blend-mode: exclusion; right: 6.5vw; white-space: nowrap; color: coral; }
 
-.sky { position: relative; margin: auto; overflow: visible; background-image: url(/assets/images/sky.png); background-size: cover; width: 51%; z-index: 1; }
+.sky { position: relative; margin: auto; overflow: visible; background-image: url(/assets/images/sky.png); background-size: cover; width: 55%; z-index: 1; }
 
 .welcome-subtext { font-family: noita-glyph; position: relative; bottom: 20px; font-size: 2.5vw; mix-blend-mode: hard-light; font-weight: lighter; color: crimson; }
 
