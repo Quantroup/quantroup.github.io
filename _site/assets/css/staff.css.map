@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "staff.css",
+	"sources": [
+		"staff.scss",
+		"_sass/staff.scss"
+	],
+	"sourcesContent": [
+		"@import \"staff\";\n\n",
+		"ul{\n    text-align: left;\n}\n"
+	],
+	"names": [],
+	"mappings": "ACAA,AAAA,EAAE,CAAA,EACE,UAAU,EAAE,IAAI,GACnB"
+}

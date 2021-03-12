@@ -6,6 +6,8 @@
 
 .anim-text { animation-name: anim_text; animation-duration: 10s; animation-iteration-count: infinite; animation-timing-function: ease-in-out; }
 
+.main-text { font-family: Cantarell; font-size: 2vw; }
+
 @keyframes anim_text { 0% { color: coral; }
   10% { color: lightcoral; }
   20% { color: crimson; }

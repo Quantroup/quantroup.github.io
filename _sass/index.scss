@@ -43,6 +43,11 @@
   animation-timing-function: ease-in-out;
 }
 
+.main-text{
+    font-family: Cantarell;
+    font-size: 2vw;
+}
+
 @keyframes anim_text {
     0%      {color: coral;}
     10%     {color: lightcoral;}
