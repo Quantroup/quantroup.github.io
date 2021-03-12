@@ -1,7 +1,10 @@
 <nav class= "navbox">
-{% for item in site.data.navigation %}
-    <a class="nav-par" href="{{ item.link }}"> <button {% if page.url == item.link %}class="nav-button current_page" {% endif %} class="nav-button" align="middle" > {{ item.name }} </button> </a>
-{% endfor %}
+    <div class= "navmen">
+        <a class="nav-par" href="/"> <button {% if page.url == "/" %}class="nav-button current_page l-edge" {% endif %} class="nav-button l-edge" align="middle" > Home </button> </a>
+        {% for item in site.data.navigation %}
+        <a class="nav-par" href="{{ item.link }}"> <button {% if page.url == item.link %}class="nav-button current_page" {% endif %} class="nav-button" align="middle" > {{ item.name }} </button> </a>
+        {% endfor %}
+    </div>
 </nav>
 
 <!-- Import fonts -->

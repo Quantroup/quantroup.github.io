@@ -4,6 +4,18 @@
 
 .welcome-subtext { font-family: noita-glyph; position: relative; bottom: 20px; font-size: 2.5vw; mix-blend-mode: hard-light; font-weight: lighter; color: crimson; }
 
-.anim-text { animation: grad-text 10s ease infinite; -webkit-animation: grad-text 10s ease infinite; }
+.anim-text { animation-name: anim_text; animation-duration: 10s; animation-iteration-count: infinite; animation-timing-function: ease-in-out; }
+
+@keyframes anim_text { 0% { color: coral; }
+  10% { color: lightcoral; }
+  20% { color: crimson; }
+  30% { color: indigo; }
+  40% { color: lightgreen; }
+  50% { color: firebrick; }
+  60% { color: lightgreen; }
+  70% { color: indigo; }
+  80% { color: crimson; }
+  90% { color: lightcoral; }
+  100% { color: coral; } }
 
 /*# sourceMappingURL=index.css.map */
