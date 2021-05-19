@@ -40,7 +40,7 @@
   animation-name: anim_text;
   animation-duration: 10s;
   animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
+  animation-timing-function: linear;
 }
 
 .main-text{
@@ -49,15 +49,17 @@
 }
 
 @keyframes anim_text {
-    0%      {color: coral;}
-    10%     {color: lightcoral;}
-    20%     {color: crimson;}
-    30%     {color: indigo;}
-    40%     {color: lightgreen;}
-    50%     {color: firebrick;}
-    60%     {color: lightgreen;}
-    70%     {color: indigo;}
-    80%     {color: crimson;}
-    90%     {color: lightcoral;}
-    100%    {color: coral;}
+    0%       {color: coral;}
+    16%      {color: crimson;}
+    48%      {color: indigo;}
+    64%      {color: lightgreen;}
+    74%      {color: lightgreen;}
+    90%      {color: firebrick; }
+    100%     {color: coral;}
+
 }
+    //60%     {color: lightgreen;}
+    //70%     {color: indigo;}
+    //80%     {color: crimson;}
+    //90%     {color: lightcoral;}
+    //100%    {color: coral;}

@@ -4,20 +4,16 @@
 
 .welcome-subtext { font-family: noita-glyph; position: relative; bottom: 20px; font-size: 2.5vw; mix-blend-mode: hard-light; font-weight: lighter; color: crimson; }
 
-.anim-text { animation-name: anim_text; animation-duration: 10s; animation-iteration-count: infinite; animation-timing-function: ease-in-out; }
+.anim-text { animation-name: anim_text; animation-duration: 10s; animation-iteration-count: infinite; animation-timing-function: linear; }
 
 .main-text { font-family: Cantarell; font-size: 2vw; }
 
 @keyframes anim_text { 0% { color: coral; }
-  10% { color: lightcoral; }
-  20% { color: crimson; }
-  30% { color: indigo; }
-  40% { color: lightgreen; }
-  50% { color: firebrick; }
-  60% { color: lightgreen; }
-  70% { color: indigo; }
-  80% { color: crimson; }
-  90% { color: lightcoral; }
+  16% { color: crimson; }
+  48% { color: indigo; }
+  64% { color: lightgreen; }
+  74% { color: lightgreen; }
+  90% { color: firebrick; }
   100% { color: coral; } }
 
 /*# sourceMappingURL=index.css.map */

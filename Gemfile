@@ -11,3 +11,5 @@ gem "jekyll", "~> 4.2"
 # RSS
 
 gem 'jekyll-feed'
+
+gem "webrick", "~> 1.7"
